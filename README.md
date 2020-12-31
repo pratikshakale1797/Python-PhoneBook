@@ -1,3 +1,12 @@
 # Python-PhoneBook
+#Phonebook app created using Python 3, the tkinter library, and SQLite.
+The program displays a menu and gives you the following options:
+  -to add an entry
+  -lookup an entry
+  -print all entries
+  -quit
 
-Phonebook directory that collects contact data from the user until the user prompts the program to. Contact data refers to the contact’s name, phone number, date-of-birth, a category that contact belongs to (Friends, Family, Work, Other), e-mail address. The user may enter as much data as he can in the mentioned data labels. If some labels remain void of data, store it as None. A name & the number is mandatory to create contact. Implement the following operations on the directory: Insert, Delete, Search, Display.
+When you add an entry it gets added to a SQLite database
+When you lookup and entry it gets the entry details from a SQLite database
+When you view all entries it gets them from a SQLite database
+
